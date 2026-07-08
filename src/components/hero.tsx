@@ -13,7 +13,7 @@ export function Hero() {
         <div className="text-center">
           {/* Badge */}
           <span className="inline-block rounded-full bg-primary-800 text-white px-4 py-1.5 text-sm font-medium mb-6">
-            📍 Campus Puente Alto — Admisión 2027
+            🦁 AR School Puente Alto — Admisión 2027
           </span>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
