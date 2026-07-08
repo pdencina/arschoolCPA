@@ -68,7 +68,7 @@ export function Gallery() {
               aria-label={`Ver foto: ${photo.alt}`}
             >
               {/* Placeholder hasta que se suban fotos reales */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-100 to-primary-200 text-primary-600">
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-50 to-accent-50 text-primary-700">
                 <span className="text-sm text-center px-4 font-medium">
                   {photo.alt}
                 </span>

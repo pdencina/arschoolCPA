@@ -32,13 +32,12 @@ export function Location() {
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="rounded-lg bg-primary-100 p-3">
-                <MapPin className="h-6 w-6 text-primary-700" />
+                <MapPin className="h-6 w-6 text-primary-800" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Dirección</h3>
                 <p className="text-gray-600 mt-1">
-                  {/* TODO: Reemplazar con dirección real */}
-                  Av. Concha y Toro 1234, Puente Alto
+                  Av. José Manuel Irarrázaval 0565, Puente Alto
                   <br />
                   Región Metropolitana, Chile
                 </p>
@@ -47,7 +46,7 @@ export function Location() {
 
             <div className="flex items-start gap-4">
               <div className="rounded-lg bg-primary-100 p-3">
-                <Clock className="h-6 w-6 text-primary-700" />
+                <Clock className="h-6 w-6 text-primary-800" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Horarios</h3>
@@ -61,15 +60,14 @@ export function Location() {
 
             <div className="flex items-start gap-4">
               <div className="rounded-lg bg-primary-100 p-3">
-                <Phone className="h-6 w-6 text-primary-700" />
+                <Phone className="h-6 w-6 text-primary-800" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Contacto</h3>
                 <p className="text-gray-600 mt-1">
-                  {/* TODO: Reemplazar con datos reales */}
-                  +56 9 1234 5678
+                  +56 9 3690 2642
                   <br />
-                  matriculas.puentealto@arschool.cl
+                  contacto@arschoolglobal.com
                 </p>
               </div>
             </div>

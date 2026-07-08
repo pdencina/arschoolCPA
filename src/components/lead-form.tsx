@@ -161,7 +161,7 @@ export function LeadForm({ programa }: Props) {
       <button
         type="submit"
         disabled={loading}
-        className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary-600 px-6 py-3 text-white font-semibold shadow-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary-800 px-6 py-3 text-white font-semibold shadow-md hover:bg-primary-900 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2 transition disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {loading ? (
           <Loader2 className="h-5 w-5 animate-spin" />

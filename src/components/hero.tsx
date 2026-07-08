@@ -2,30 +2,28 @@ import { GraduationCap, Baby } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: "radial-gradient(circle at 25% 25%, white 1px, transparent 1px)",
-          backgroundSize: "50px 50px",
-        }} />
+    <section className="relative overflow-hidden bg-white">
+      {/* Decorative background shapes */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 h-[500px] w-[500px] rounded-full bg-primary-50 opacity-70" />
+        <div className="absolute -bottom-20 -left-20 h-[300px] w-[300px] rounded-full bg-accent-50 opacity-70" />
       </div>
 
       <div className="relative mx-auto max-w-6xl px-4 py-20 sm:py-28 lg:py-32">
         <div className="text-center">
           {/* Badge */}
-          <span className="inline-block rounded-full bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-1.5 text-sm font-medium mb-6">
+          <span className="inline-block rounded-full bg-primary-100 border border-primary-200 px-4 py-1.5 text-sm font-medium text-primary-800 mb-6">
             📍 Campus Puente Alto — Matrículas Abiertas 2027
           </span>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
             Educación cristiana de{" "}
-            <span className="text-accent-200">excelencia</span>
+            <span className="text-primary-700">excelencia</span>
             <br />
             en Puente Alto
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-primary-100 leading-relaxed">
+          <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-gray-600 leading-relaxed">
             Un espacio seguro donde tus hijos crecen en valores, aprenden con
             metodologías innovadoras y se preparan para el futuro.
           </p>
@@ -34,7 +32,7 @@ export function Hero() {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="#ar-school"
-              className="flex items-center gap-2 rounded-xl bg-white text-primary-800 px-8 py-4 font-semibold shadow-lg hover:bg-primary-50 transition w-full sm:w-auto justify-center"
+              className="flex items-center gap-2 rounded-xl bg-primary-800 text-white px-8 py-4 font-semibold shadow-lg hover:bg-primary-900 transition w-full sm:w-auto justify-center"
             >
               <GraduationCap className="h-5 w-5" />
               AR School (Básica)
@@ -49,10 +47,19 @@ export function Hero() {
           </div>
 
           {/* Trust indicators */}
-          <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-primary-200">
-            <span className="flex items-center gap-1">✅ Reconocimiento oficial MINEDUC</span>
-            <span className="flex items-center gap-1">✅ Grupos reducidos (max 25 alumnos)</span>
-            <span className="flex items-center gap-1">✅ Jornada completa con almuerzo</span>
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
+            <span className="flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-primary-500" />
+              Reconocimiento oficial MINEDUC
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-primary-500" />
+              Grupos reducidos (max 25 alumnos)
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-primary-500" />
+              Jornada completa con almuerzo
+            </span>
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ export default function HomePage() {
         description="La primera experiencia educativa de tu hijo/a en un espacio de cariño, contención y aprendizaje. Porque los primeros años construyen las bases de todo lo que viene después."
         features={playGroupFeatures}
         bgColor="bg-accent-50"
-        accentColor="bg-accent-100 text-accent-600"
+        accentColor="bg-accent-100 text-accent-700"
       />
 
       <Gallery />
@@ -64,13 +64,13 @@ export default function HomePage() {
       <Location />
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8">
+      <footer className="bg-primary-900 text-primary-200 py-8">
         <div className="mx-auto max-w-6xl px-4 text-center text-sm">
-          <p>
-            © {new Date().getFullYear()} Fundación Educacional AR School — Campus Puente Alto
+          <p className="text-white/80">
+            © {new Date().getFullYear()} Fundación Educacional ARM Global — Campus Puente Alto
           </p>
           <p className="mt-2">
-            Av. Concha y Toro 1234, Puente Alto, RM, Chile
+            Av. José Manuel Irarrázaval 0565, Puente Alto, RM, Chile
           </p>
         </div>
       </footer>
