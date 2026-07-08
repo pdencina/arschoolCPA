@@ -7,23 +7,23 @@ import { FAQ } from "@/components/faq";
 import { Location } from "@/components/location";
 
 const arSchoolFeatures = [
-  { text: "Enseñanza básica (1° a 8°) con reconocimiento MINEDUC" },
-  { text: "Proyecto educativo cristiano con formación integral" },
-  { text: "Grupos reducidos — máximo 25 alumnos por sala" },
-  { text: "Inglés intensivo desde 1° básico" },
-  { text: "Talleres extraprogramáticos incluidos (arte, música, deporte)" },
-  { text: "Acompañamiento socioemocional permanente" },
-  { text: "Jornada completa con almuerzo (JUNAEB)" },
+  { text: "Centro Educacional Alternativo — educación libre y significativa" },
+  { text: "Pre-School, Elementary School (básica) y High School (media)" },
+  { text: "Formación valórica cristiana con enfoque en habilidades blandas" },
+  { text: "Programa intensivo de inglés (nivel B2 al egresar)" },
+  { text: "Talleres integrados: Ciencias, Música, Audiovisual, Finanzas, Ed. Física" },
+  { text: "Aprendizaje por ciclos y experiencias — sin paradigmas tradicionales" },
+  { text: "Desarrollo de liderazgo personal y habilidades socioemocionales" },
 ];
 
 const playGroupFeatures = [
-  { text: "Niños de 2 a 5 años en ambiente seguro y estimulante" },
-  { text: "Metodología lúdica basada en el juego y la exploración" },
-  { text: "Educadoras de párvulos tituladas + auxiliares" },
-  { text: "Grupos pequeños — máximo 15 niños por sala" },
-  { text: "Alimentación incluida (desayuno, almuerzo, colación)" },
-  { text: "Estimulación temprana, psicomotricidad y lenguaje" },
-  { text: "Transición fluida hacia AR School (prioridad de matrícula)" },
+  { text: "Niños y niñas en sus primeros años de vida" },
+  { text: "Metodología basada en el juego como herramienta de aprendizaje" },
+  { text: "Cuidado integral: lugar seguro, con amor y dedicación" },
+  { text: "Formación de valores cristianos desde la primera infancia" },
+  { text: "Apoyo transversal a todo el núcleo familiar" },
+  { text: "Estimulación del descubrimiento y aprendizaje significativo" },
+  { text: "Transición natural hacia AR School Elementary" },
 ];
 
 export default function HomePage() {
@@ -36,22 +36,22 @@ export default function HomePage() {
       <ProgramSection
         id="ar-school"
         programa="ar-school"
-        title="AR School — Enseñanza Básica"
-        subtitle="1° a 8° Básico"
-        description="Un colegio donde cada estudiante es conocido, valorado y desafiado a dar lo mejor de sí. Formamos personas íntegras con base cristiana, pensamiento crítico y herramientas para el siglo XXI."
+        title="AR School — Centro Educacional Alternativo"
+        subtitle="Pre-School · Elementary · High School"
+        description="Formamos personas íntegras con sólidas habilidades sociales, valores y principios. Nuestra educación no reposa solo sobre un pilar académico — incorporamos liderazgo, habilidades blandas y experiencias significativas en cada etapa."
         features={arSchoolFeatures}
         bgColor="bg-white"
-        accentColor="bg-primary-100 text-primary-700"
+        accentColor="bg-primary-100 text-primary-800"
       />
 
       <ProgramSection
         id="play-group"
         programa="play-group"
-        title="Play & Group — Preescolar"
-        subtitle="2 a 5 años"
-        description="La primera experiencia educativa de tu hijo/a en un espacio de cariño, contención y aprendizaje. Porque los primeros años construyen las bases de todo lo que viene después."
+        title="Play & Group — Educación Preescolar"
+        subtitle="Primeros años de vida"
+        description="Entregamos educación y cuidado integral en la primera infancia. Somos parte de la etapa más importante de tus hijos, contribuyendo positivamente a su desarrollo natural a través del juego y el amor."
         features={playGroupFeatures}
-        bgColor="bg-accent-50"
+        bgColor="bg-sand-50"
         accentColor="bg-accent-100 text-accent-700"
       />
 
@@ -66,11 +66,14 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-primary-900 text-primary-200 py-8">
         <div className="mx-auto max-w-6xl px-4 text-center text-sm">
-          <p className="text-white/80">
-            © {new Date().getFullYear()} Fundación Educacional ARM Global — Campus Puente Alto
+          <p className="text-white/90 font-medium">
+            © {new Date().getFullYear()} Fundación Educacional ARM Global
           </p>
           <p className="mt-2">
-            Av. José Manuel Irarrázaval 0565, Puente Alto, RM, Chile
+            Sede Puente Alto: Av. José Manuel Irarrázaval 0565
+          </p>
+          <p className="mt-1 text-primary-300">
+            contacto@arschoolglobal.com · www.arschoolglobal.com
           </p>
         </div>
       </footer>

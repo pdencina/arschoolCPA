@@ -5,44 +5,44 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "¿Cuándo es el período de matrículas?",
+    question: "¿Qué tipo de colegio es AR School?",
     answer:
-      "Las matrículas están abiertas todo el año sujetas a disponibilidad de vacantes. Sin embargo, el período principal de postulaciones para el año siguiente es entre julio y octubre. Te recomendamos consultar cuanto antes para asegurar tu cupo.",
+      "Somos un Centro Educacional Alternativo. No seguimos paradigmas tradicionales — incorporamos educación libre, práctica y significativa con énfasis en valores cristianos, habilidades blandas y liderazgo personal.",
   },
   {
-    question: "¿Qué documentos necesito para matricular?",
+    question: "¿Qué niveles educativos ofrecen?",
     answer:
-      "Certificado de nacimiento del alumno/a, informe de notas del colegio anterior (si aplica), certificado de traslado (para alumnos que vienen de otro establecimiento) y cédula de identidad del apoderado. Para Play & Group solo necesitas certificado de nacimiento y carné de vacunas.",
+      "Ofrecemos Pre-School (preescolar desde los 5 años), Elementary School (educación básica) y High School (educación media). Además, Play & Group atiende a niños en sus primeros años de vida con metodología basada en el juego.",
   },
   {
-    question: "¿Tienen convenio con JUNAEB?",
+    question: "¿Cuál es la metodología de enseñanza?",
     answer:
-      "Sí, contamos con alimentación JUNAEB para todos los niveles de enseñanza básica. Los alumnos reciben desayuno y almuerzo sin costo adicional.",
+      "Implementamos aprendizaje por ciclos y experiencias significativas. No es educación tradicional de pizarra — nuestros estudiantes descubren, crean y aprenden a través de talleres integrados como Ciencias, Música, Audiovisual, Finanzas y Educación Física.",
   },
   {
-    question: "¿Cuál es el valor de la mensualidad?",
+    question: "¿Cómo es el programa de inglés?",
     answer:
-      "Somos un colegio particular subvencionado, por lo que el copago es accesible. Te invitamos a consultar directamente para conocer los valores actualizados y planes de pago disponibles.",
+      "El inglés se enseña de forma intensiva desde Pre-School. El objetivo es que nuestros alumnos alcancen un nivel B2 según el Marco Común Europeo al egresar de High School, dándoles acceso real al mundo globalizado.",
   },
   {
-    question: "¿Es obligatorio ser cristiano para matricularse?",
+    question: "¿Qué valores se enseñan en AR School?",
     answer:
-      "No. Recibimos familias de todas las creencias. Nuestro proyecto educativo está inspirado en valores cristianos (respeto, amor, servicio), pero no es requisito profesar una fe particular.",
+      "Nuestros ejes centrales son Dios y Familia. A partir de ellos desarrollamos: fidelidad, amor, generosidad, humildad, honestidad, obediencia, orden, prudencia, tolerancia, responsabilidad, respeto y solidaridad. No es solo teoría — se vive diariamente en la comunidad.",
   },
   {
-    question: "¿Qué pasa después del preescolar Play & Group?",
+    question: "¿Es necesario ser cristiano para matricularse?",
     answer:
-      "Los niños que egresan de Play & Group tienen prioridad de matrícula para 1° básico en AR School, con una transición acompañada por nuestro equipo pedagógico para que el paso sea natural y sin estrés.",
+      "No es requisito profesar una fe particular. Recibimos familias de diversas creencias. Nuestro proyecto educativo está inspirado en valores cristianos que se traducen en un ambiente de amor, respeto y servicio.",
   },
   {
-    question: "¿Tienen transporte escolar?",
+    question: "¿Qué es Play & Group?",
     answer:
-      "Contamos con convenio con servicios de transporte escolar del sector. Te podemos conectar con los operadores que cubren tu zona de Puente Alto.",
+      "Play & Group es nuestra unidad preescolar, parte de la Fundación ARM Global. Brinda educación y cuidado integral a niños en sus primeros años de vida, con metodología basada en el juego y un ambiente seguro lleno de amor y dedicación.",
   },
   {
-    question: "¿Puedo visitar el colegio antes de matricular?",
+    question: "¿Puedo visitar el campus antes de matricular?",
     answer:
-      "¡Por supuesto! Realizamos jornadas de puertas abiertas mensuales y también puedes agendar una visita personalizada. Escríbenos por WhatsApp y coordinamos.",
+      "¡Por supuesto! Puedes agendar una visita personalizada al campus de Puente Alto. Escríbenos por WhatsApp y coordinamos un recorrido para que conozcas nuestros espacios y equipo.",
   },
 ];
 
@@ -61,7 +61,7 @@ export function FAQ() {
             Preguntas frecuentes
           </h2>
           <p className="mt-3 text-lg text-gray-600">
-            Todo lo que necesitas saber sobre nuestro colegio
+            Todo lo que necesitas saber sobre AR School
           </p>
         </div>
 

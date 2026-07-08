@@ -60,12 +60,12 @@ export function Countdown() {
   if (!timeLeft) return null;
 
   return (
-    <section className="py-12 bg-gradient-to-r from-primary-50 to-accent-50 border-y border-gray-100">
+    <section className="py-12 bg-gradient-to-r from-sand-50 to-accent-50 border-y border-sand-100">
       <div className="mx-auto max-w-4xl px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-4">
           <Calendar className="h-5 w-5 text-primary-700" />
           <span className="text-sm font-semibold text-primary-800 uppercase tracking-wide">
-            Matrículas abiertas hasta octubre 2026
+            Admisión abierta — Proceso 2027
           </span>
         </div>
 
@@ -84,14 +84,14 @@ export function Countdown() {
         </div>
 
         <p className="mt-6 text-gray-600">
-          Vacantes limitadas — grupos reducidos de máximo 25 alumnos
+          Vacantes limitadas — grupos reducidos para una experiencia personalizada
         </p>
 
         <a
           href="#ar-school"
           className="inline-block mt-4 rounded-xl bg-primary-800 text-white px-8 py-3 font-semibold shadow-md hover:bg-primary-900 transition"
         >
-          Reservar mi cupo ahora
+          Conocer más y postular
         </a>
       </div>
     </section>

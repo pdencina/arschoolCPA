@@ -5,28 +5,28 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 const photos = [
   {
-    src: "/images/campus-exterior.jpg",
-    alt: "Fachada del campus AR School Puente Alto",
+    src: "/images/ciencias.jpg",
+    alt: "Taller de Ciencias",
   },
   {
-    src: "/images/sala-clases.jpg",
-    alt: "Sala de clases con grupos reducidos",
+    src: "/images/ed-fisica.jpg",
+    alt: "Educación Física al aire libre",
   },
   {
-    src: "/images/patio.jpg",
-    alt: "Patio de juegos y recreación",
+    src: "/images/musica.jpg",
+    alt: "Taller de Música",
+  },
+  {
+    src: "/images/audiovisual.jpg",
+    alt: "Taller Audiovisual",
+  },
+  {
+    src: "/images/finanzas.jpg",
+    alt: "Taller de Finanzas",
   },
   {
     src: "/images/play-group.jpg",
-    alt: "Niños en actividad Play & Group",
-  },
-  {
-    src: "/images/taller-arte.jpg",
-    alt: "Taller de arte extraprogramático",
-  },
-  {
-    src: "/images/biblioteca.jpg",
-    alt: "Biblioteca y espacio de lectura",
+    alt: "Play & Group — Aprendizaje a través del juego",
   },
 ];
 
@@ -51,10 +51,10 @@ export function Gallery() {
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Conoce nuestro campus
+            Experiencias de aprendizaje
           </h2>
           <p className="mt-3 text-lg text-gray-600">
-            Espacios diseñados para el aprendizaje y el bienestar de tus hijos
+            Talleres integrados donde nuestros estudiantes descubren su pasión
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export function Gallery() {
               aria-label={`Ver foto: ${photo.alt}`}
             >
               {/* Placeholder hasta que se suban fotos reales */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-50 to-accent-50 text-primary-700">
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-sand-50 to-sand-100 text-primary-700">
                 <span className="text-sm text-center px-4 font-medium">
                   {photo.alt}
                 </span>
@@ -81,7 +81,7 @@ export function Gallery() {
                 loading="lazy"
               />
               */}
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
             </button>
           ))}
         </div>
@@ -95,7 +95,6 @@ export function Gallery() {
           aria-modal="true"
           aria-label="Galería de fotos"
         >
-          {/* Close */}
           <button
             onClick={closeLightbox}
             className="absolute top-4 right-4 rounded-full bg-white/10 p-2 text-white hover:bg-white/20 transition"
@@ -104,7 +103,6 @@ export function Gallery() {
             <X className="h-6 w-6" />
           </button>
 
-          {/* Prev */}
           <button
             onClick={goPrev}
             className="absolute left-4 rounded-full bg-white/10 p-2 text-white hover:bg-white/20 transition"
@@ -113,7 +111,6 @@ export function Gallery() {
             <ChevronLeft className="h-6 w-6" />
           </button>
 
-          {/* Image */}
           <div className="max-w-4xl w-full aspect-video rounded-xl overflow-hidden bg-gray-800 flex items-center justify-center">
             <div className="text-white text-center p-8">
               <p className="text-lg font-medium">{photos[lightbox].alt}</p>
@@ -121,16 +118,8 @@ export function Gallery() {
                 {lightbox + 1} / {photos.length}
               </p>
             </div>
-            {/* Cuando tengas fotos reales:
-            <img
-              src={photos[lightbox].src}
-              alt={photos[lightbox].alt}
-              className="h-full w-full object-contain"
-            />
-            */}
           </div>
 
-          {/* Next */}
           <button
             onClick={goNext}
             className="absolute right-4 rounded-full bg-white/10 p-2 text-white hover:bg-white/20 transition"
