@@ -3,18 +3,18 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Carolina M.",
-    role: "Mamá de Matías — Elementary School",
-    text: "Buscábamos algo diferente para nuestro hijo, que no fuera el sistema tradicional. En AR School encontró un espacio donde aprende con pasión y no siente la educación como una carga.",
+    role: "Mamá — Elementary School",
+    text: "Mi hijo por fin disfruta aprender. Sin notas, sin presión. Aquí lo ven como persona, no como un número. Los tutores lo conocen y lo acompañan de verdad.",
   },
   {
     name: "Francisco R.",
-    role: "Papá de Emilia — Play & Group",
-    text: "La metodología basada en el juego fue clave para nosotros. Emilia va feliz cada día y sabemos que está en un lugar seguro, con amor y un propósito claro de formación.",
+    role: "Papá — Play & Group",
+    text: "Buscábamos un lugar donde nuestra hija no solo estuviera segura, sino que creciera con amor y propósito. Play & Group fue exactamente eso — juego con sentido.",
   },
   {
     name: "Patricia L.",
-    role: "Mamá de Joaquín — High School",
-    text: "Lo que más valoro es que no solo forman académicamente, sino que trabajan los valores y habilidades blandas. Joaquín ha desarrollado liderazgo y confianza que no veíamos antes.",
+    role: "Mamá — High School",
+    text: "Lo que más valoro es que trabajan el carácter y las habilidades blandas. Mi hijo desarrolló liderazgo, empatía y confianza. Eso no lo enseña un colegio tradicional.",
   },
 ];
 
@@ -27,7 +27,7 @@ export function Testimonials() {
             Lo que dicen nuestras familias
           </h2>
           <p className="mt-3 text-lg text-gray-600">
-            Familias que ya son parte de nuestra comunidad educativa
+            Familias que eligieron una educación diferente para sus hijos
           </p>
         </div>
 

@@ -17,15 +17,19 @@ export function Hero() {
           </span>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
-            Educación{" "}
-            <span className="text-primary-700">libre, práctica</span>
+            Que tu meta más alta
             <br />
-            y significativa
+            sea siempre el{" "}
+            <span className="text-accent-500">amor</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-gray-600 leading-relaxed">
-            Somos un Centro Educacional Alternativo que forma personas íntegras
-            con valores cristianos, habilidades blandas y herramientas para la vida.
+            Educamos y acompañamos a cada niño para que camine con propósito,
+            aprenda con libertad e impacte positivamente a los demás.
+          </p>
+
+          <p className="mx-auto mt-3 max-w-lg text-sm text-gray-400 italic">
+            Modelo Educativo A.M.O.R. · Inspirado en 1ª Corintios 14:1
           </p>
 
           {/* CTA buttons */}
@@ -50,15 +54,15 @@ export function Hero() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
             <span className="flex items-center gap-1.5">
               <span className="h-2 w-2 rounded-full bg-primary-700" />
-              Educación no tradicional
+              Sin notas · Sin tareas
             </span>
             <span className="flex items-center gap-1.5">
               <span className="h-2 w-2 rounded-full bg-accent-500" />
-              Formación valórica cristiana
+              Tutores, no profesores
             </span>
             <span className="flex items-center gap-1.5">
               <span className="h-2 w-2 rounded-full bg-sage-500" />
-              Inglés intensivo desde Pre-School
+              Inglés intensivo · Sin pantallas
             </span>
           </div>
         </div>
